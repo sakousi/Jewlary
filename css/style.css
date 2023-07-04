@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.nav {
+  background-color: #2D2D2D;
+  color: #F3F5FD;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0.5rem;
+}
+.nav__ul {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.nav__ul_li_a {
+  color: #F3F5FD;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.nav__ul_li_a:hover {
+  color: #F3F5FD;
+  transition: all 0.3s ease-in-out;
+}
+
+/*# sourceMappingURL=style.css.map */

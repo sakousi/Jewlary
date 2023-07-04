@@ -1,0 +1,15 @@
+{
+  "name": "jewlary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "sass sass/styles.sass css/style.css --watch",
+    "watch": "npm run build-sass -- --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.63.6"
+  }
+}

@@ -1,0 +1,21 @@
+.nav
+    background-color: $nav-bg
+    color: $nav-color
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 1rem .5rem
+    &__ul
+        display: flex
+        gap: 1rem
+        justify-content: space-between
+        align-items: center
+        list-style: none
+        &_li
+            &_a
+                color: $nav-link-color
+                text-decoration: none
+                transition: all .3s ease-in-out
+                &:hover
+                    color: $nav-link-hover-color
+                    transition: all .3s ease-in-out
