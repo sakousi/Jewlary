@@ -22,6 +22,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0.5rem;
+  font-family: "Poppins", sans-serif;
 }
 .nav__ul {
   display: flex;
@@ -38,6 +39,61 @@
 .nav__ul_li_a:hover {
   color: #F3F5FD;
   transition: all 0.3s ease-in-out;
+}
+.nav__imgbox .img {
+  height: 0.1vh;
+  width: 0.1vw;
+}
+
+.hero {
+  width: 100%;
+  height: 35rem;
+  background-image: url("../assets/img/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero__textbox {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 2.5rem 1rem;
+  box-shadow: 0px 10px 66px 0px rgb(0, 0, 0);
+  border-radius: 0.5rem;
+}
+.hero__textbox_h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+.hero__textbox_p {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.smallabout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.smallabout__textbox {
+  padding: 2.5rem 1rem;
+}
+.smallabout__textbox_h1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+}
+.smallabout__textbox_p {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.spacer {
+  background-color: rgba(255, 255, 255, 0);
 }
 
 /*# sourceMappingURL=style.css.map */
