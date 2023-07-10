@@ -19,7 +19,7 @@ require_once 'config/database.php';
 <body>
     <nav class="nav">
         <div class="nav__imgbox">
-            <img src="assets/img/icon.png" alt="Logo">
+            <img class="nav__imgbox_img" src="assets/img/icon.png" alt="Logo">
         </div>
         <ul class="nav__ul">
             <li class="nav__ul_li"><a class="nav__ul_li_a" href="index.php">Home</a></li>
