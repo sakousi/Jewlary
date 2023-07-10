@@ -40,11 +40,6 @@
   color: #F3F5FD;
   transition: all 0.3s ease-in-out;
 }
-.nav__imgbox .img {
-  height: 0.1vh;
-  width: 0.1vw;
-}
-
 .hero {
   width: 100%;
   height: 35rem;
@@ -78,6 +73,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .smallabout__textbox {
   padding: 2.5rem 1rem;
@@ -90,6 +86,14 @@
 .smallabout__textbox_p {
   text-align: center;
   font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.smallabout__button {
+  border: none;
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
   font-family: "Poppins", sans-serif;
 }
 
