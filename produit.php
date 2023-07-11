@@ -3,7 +3,7 @@
 function getProduct($id){
     global $bdd;
 
-    $query = $bdd->prepare('SELECT * FROM products WHERE id = ?');
+    $query = $bdd->prepare('SELECT * FROM product WHERE id = ?');
     $query->execute(array($id));
     return $query->fetch();
 }
