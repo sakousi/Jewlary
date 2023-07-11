@@ -1,0 +1,199 @@
+/* Réinitialisation des styles par défaut */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Appliquer une police de caractères */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Style de base pour le conteneur principal */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* Style de base pour les en-têtes */
+
+h1,
+h2,
+h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+
+/* Style pour les liens */
+
+a {
+    color: #999;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+
+
+/* Style pour les boutons */
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #222;
+}
+
+
+/* Style pour les sections */
+
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+    border-radius: 4px;
+}
+
+
+/* Style pour les zones de texte */
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
+/* Style pour les formulaires */
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="file"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+}
+
+
+/* Style pour les messages d'erreur */
+
+.error-message {
+    color: red;
+    margin-top: 5px;
+}
+
+
+/* Style pour les messages de succès */
+
+.success-message {
+    color: green;
+    margin-top: 5px;
+}
+
+
+/* Style spécifique pour les formulaires de collection et de produit */
+
+.new-collection,
+.new-product {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.new-collection h1,
+.new-product h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.new-collection form,
+.new-product form {
+    margin-top: 10px;
+}
+
+.new-collection input[type="text"],
+.new-product input[type="text"],
+.new-product textarea,
+.new-product input[type="number"],
+.new-product input[type="file"],
+.new-product select {
+    background-color: #fff;
+}
+
+.new-collection input[type="submit"],
+.new-product input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+
+.new-collection input[type="submit"]:hover,
+.new-product input[type="submit"]:hover {
+    background-color: #222;
+}
+
+
+/* Style spécifique pour la page de login */
+
+.login {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.login h1 {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.login form {
+    margin-top: 10px;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    background-color: #fff;
+}
+
+.login input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+
+.login input[type="submit"]:hover {
+    background-color: #222;
+}
