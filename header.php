@@ -1,5 +1,6 @@
 <?php 
-require_once 'config/database.php';
+require_once 'config/bdd_utils.php';
+$bdd = connectDBS();
 ?>
 <!DOCTYPE html>
 <html lang="en">
