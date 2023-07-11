@@ -2,6 +2,11 @@
 require_once '../config/bdd_utils.php';
 $bdd = connectDBS();
 session_start();
+
+if(!isset($_SESSION['user'])){
+    header('Location: login.php');
+    exit();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
