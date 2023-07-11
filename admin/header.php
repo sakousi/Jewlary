@@ -4,8 +4,11 @@ $bdd = connectDBS();
 session_start();
 
 if(!isset($_SESSION['user'])){
-    header('Location: login.php');
-    exit();
+    // do nothing if on login page
+    if(basename($_SERVER['PHP_SELF']) != 'login.php'){
+        header('Location: login.php');
+        exit();
+    }
 }
 ?>
 <!DOCTYPE html>
