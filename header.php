@@ -25,6 +25,5 @@ $bdd = connectDBS();
         <ul class="nav__ul">
             <li class="nav__ul_li"><a class="nav__ul_li_a" href="index.php">Home</a></li>
             <li class="nav__ul_li"><a class="nav__ul_li_a" href="boutique.php">Boutique</a></li>
-            <li class="nav__ul_li"><a class="nav__ul_li_a" href="index.php">Qui suis-je</a></li>
         </ul>
     </nav>

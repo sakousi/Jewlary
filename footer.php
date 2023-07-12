@@ -1,12 +1,12 @@
     <footer class="footer">
         <ul>
             <li><a href="index.php">Home</a></li>
-            <li><a href="index.php">Boutique</a></li>
-            <li><a href="index.php">Qui suis-je</a></li>
+            <li><a href="boutique.php">Boutique</a></li>
+            <li><a href="admin/login.php">Admin</a></li>
         </ul>
         <ul>
             <!-- legal -->
-            <li><a href="">Mentions legal</a></li>
+            <li><a href="">Mentions legales</a></li>
         </ul>
     </footer>
 </body>
