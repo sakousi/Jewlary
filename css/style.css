@@ -15,6 +15,23 @@
   padding-right: 25px;
 }
 
+.btn {
+  border: none;
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  max-width: fit-content;
+  border: 2px solid #000;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
 .nav {
   background-color: #2D2D2D;
   color: #F3F5FD;
@@ -105,17 +122,61 @@
   font-size: 15px;
   font-family: "Poppins", sans-serif;
 }
-.smallabout__button {
-  border: none;
-  background-color: #000;
-  color: #fff;
-  padding: 1rem 2rem;
-  border-radius: 0.5rem;
-  font-family: "Poppins", sans-serif;
-}
 
 .spacer {
   background-color: rgba(255, 255, 255, 0);
+}
+
+.collection {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  padding: 1rem;
+}
+.collection__title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+.collection__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.collection__cards_card {
+  margin: 1rem;
+  width: 300px;
+  background-color: #efefef;
+  border-radius: 0.5rem;
+  box-shadow: 15px 10px 25px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+}
+.collection__cards_card_image {
+  height: 300px;
+  width: 100%;
+}
+.collection__cards_card_image img {
+  height: 100%;
+  width: 100%;
+}
+.collection__cards_card_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.collection__cards_card_info_title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+.collection__cards_card_info_price {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
 }
 
 .footer {

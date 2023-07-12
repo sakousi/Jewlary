@@ -11,7 +11,7 @@
         <div class="smallabout__textbox_h1">Qui suis-je ?</div>
         <div class="smallabout__textbox_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis corrupti consequuntur non, quas cumque, porro numquam cum, delectus doloribus dolorum quae distinctio facere fugiat illo obcaecati tenetur error atque reiciendis!</div>
     </div>
-    <button class="smallabout__button" type="button" href="about.php">En lire plus</button>
+    <button class="smallabout__button btn" type="button" href="about.php">En lire plus</button>
 </div>
 
 <div class="spacer">
@@ -23,7 +23,7 @@
         <div class="smallabout__textbox_h1">Mon univers</div>
         <div class="smallabout__textbox_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis corrupti consequuntur non, quas cumque, porro numquam cum, delectus doloribus dolorum quae distinctio facere fugiat illo obcaecati tenetur error atque reiciendis!</div>
     </div>
-    <button class="smallabout__button" type="button" href="about.php">En lire plus</button>
+    <button class="smallabout__button btn" type="button" href="about.php">En lire plus</button>
 </div>
 
 
